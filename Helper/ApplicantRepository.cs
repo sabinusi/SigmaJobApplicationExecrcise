@@ -6,7 +6,7 @@ using SigmaJobApplicantion.Model;
 
 namespace SigmaJobApplicantion.Helper;
 
-public class ApplicantRepository:IApplicationRepository
+public class ApplicantRepository:IApplicantRepository
 {
         public string RecordFile { get; set;}
    

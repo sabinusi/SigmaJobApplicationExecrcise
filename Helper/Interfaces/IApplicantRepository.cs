@@ -2,7 +2,7 @@
 
 namespace SigmaJobApplicantion.Helper.Interfaces;
 
-public interface IApplicationRepository : IExeclRepository<Applicant>
+public interface IApplicantRepository : IExeclRepository<Applicant>
 {
     
 }
