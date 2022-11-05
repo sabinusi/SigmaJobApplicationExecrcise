@@ -1,4 +1,4 @@
-﻿namespace SigmaJobApplicantion.Controllers.Helper.Interfaces;
+﻿namespace SigmaJobApplicantion.Helper.Interfaces;
 
 public interface IExeclRepository<T> where T:class
 {

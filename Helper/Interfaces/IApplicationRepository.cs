@@ -1,6 +1,6 @@
 ﻿using SigmaJobApplicantion.Model;
 
-namespace SigmaJobApplicantion.Controllers.Helper.Interfaces;
+namespace SigmaJobApplicantion.Helper.Interfaces;
 
 public interface IApplicationRepository : IExeclRepository<Applicant>
 {
