@@ -2,6 +2,7 @@
 using Microsoft.VisualBasic;
 using SigmaJobApplicantion.Helper.Interfaces;
 using SigmaJobApplicantion.Model;
+using Constants = SigmaJobApplicantion.Helper.Constants;
 
 namespace SigmaJobApplicantion.Controllers;
 [ApiController]
@@ -23,12 +24,12 @@ public class ApplicantController : ControllerBase
         {
             if (_applicantRepository.UpdateEnttity(applicant))
             {
-                return Ok("succesfull updated applicant");
+                return Ok(Helper.Constants.UPDATE_APPLICANT_SUCCESFULL);
             }
             else
             {
                 _applicantRepository.AddEntity(applicant);
-                return Ok("succesfull add applicant");
+                return Ok(Constants.APPLICANT_ADDED_SUCCESFULL);
           
             }
         }
